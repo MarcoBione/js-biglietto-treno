@@ -14,8 +14,14 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 //Km
 let UserKm = prompt('inserire la quantità dei Km da percorere');
 
-//Età passeggero
+//check
+console.log(UserKm);
+
+//Userage
 let UserAge = prompt('Inserire la propria età');
+
+//check
+console.log(UserAge);
 
 //KmPrice
 let Kmprice = 0.21;
@@ -28,3 +34,5 @@ const Discount40 = 40;
 
 //finalprice
 let Price ='';
+
+
