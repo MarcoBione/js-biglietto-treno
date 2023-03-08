@@ -73,7 +73,7 @@ if (!isNaN(UserKm) && !isNaN(UserAge)) {
         //final calc
         let FinalPrice = ((UserKm * Kmprice) - DiscountSenior).toFixed(2);
         document.getElementById('price').innerHTML = `
-        <p>Il prezzo del suo biglietto:${FinalPrice}&euro;</p>
+        <p>Il prezzo del suo biglietto: ${FinalPrice}&euro;</p>
         <p>Con uno sconto pari a: ${DiscountSenior}&euro;</p>
         `;
 
