@@ -32,7 +32,23 @@ const Discount20 = 20;
 //40%discount
 const Discount40 = 40;
 
-//finalprice
+//price
 let Price ='';
 
+//finalprice
+let FinalPrice ='';
 
+
+//check if the user put correct values
+if(!isNaN(UserKm) && !isNaN(UserAge)){
+
+    let FinalPrice = UserKm * Kmprice;
+    console.log(FinalPrice);
+    document.getElementById('price').innerHTML = `
+    <p>Il prezzo del suo biglietto:${FinalPrice}&euro;</p>
+    `;
+} else{
+    document.getElementById ('ticket').innerHTML =`
+    <p>I valori da lei inseriti non sono corretti, perfavore ritenti!</p>
+    `;
+}
